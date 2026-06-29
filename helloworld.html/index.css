@@ -13,3 +13,34 @@ h3{
     background-color: #b92b27 ;
     color: white;
 }
+.upvote {
+    background-color: green;
+    color:aliceblue;
+    
+}
+/* descendent selector */
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a {
+    color: hotpink;
+}
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color : red;
+}
+div > input {
+    background-color: darksalmon;
+}
+input[type="text"]{
+    color: red;
+}
+input[type="password"] {
+    color: green;
+
+}
